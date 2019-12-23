@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\condofy_challenge_API.Domain\condofy_challenge_API.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

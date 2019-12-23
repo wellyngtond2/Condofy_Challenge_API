@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="prmToolkit.NotificationPattern" Version="1.1.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\condofy_challenge_API.App\condofy_challenge_API.App.csproj" />
+    <ProjectReference Include="..\condofy_challenge_API.Domain\condofy_challenge_API.Domain.csproj" />
+    <ProjectReference Include="..\condofy_challenge_API.Infra\condofy_challenge_API.Infra.csproj" />
+    <ProjectReference Include="..\condofy_challenge_API.Shared\condofy_challenge_API.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

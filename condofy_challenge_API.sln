@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "condofy_challenge_API", "condofy_challenge_API\condofy_challenge_API.csproj", "{6D46EDE0-D020-4065-A896-90E62C9A52F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "condofy_challenge_API.Domain", "condofy_challenge_API.Domain\condofy_challenge_API.Domain.csproj", "{8C8975BB-EF62-4118-90FA-285B573E6BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "condofy_challenge_API.Infra", "condofy_challenge_API.Infra\condofy_challenge_API.Infra.csproj", "{C819BD80-07B0-4576-A645-443E44945F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "condofy_challenge_API.Shared", "condofy_challenge_API.Shared\condofy_challenge_API.Shared.csproj", "{9E61F2F4-EDA6-4942-A05D-4141C9EC321F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "condofy_challenge_API.App", "condofy_challenge_API.App\condofy_challenge_API.App.csproj", "{E138CE1C-E769-44D8-951E-988DC07CA379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "condofy_challenge_API.Test", "condofy_challenge_API.Test\condofy_challenge_API.Test.csproj", "{3CC1C0A6-7C41-41A3-80E2-D27A80257ACE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D46EDE0-D020-4065-A896-90E62C9A52F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D46EDE0-D020-4065-A896-90E62C9A52F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D46EDE0-D020-4065-A896-90E62C9A52F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D46EDE0-D020-4065-A896-90E62C9A52F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8975BB-EF62-4118-90FA-285B573E6BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8975BB-EF62-4118-90FA-285B573E6BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8975BB-EF62-4118-90FA-285B573E6BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8975BB-EF62-4118-90FA-285B573E6BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C819BD80-07B0-4576-A645-443E44945F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C819BD80-07B0-4576-A645-443E44945F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C819BD80-07B0-4576-A645-443E44945F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C819BD80-07B0-4576-A645-443E44945F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E61F2F4-EDA6-4942-A05D-4141C9EC321F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E61F2F4-EDA6-4942-A05D-4141C9EC321F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E61F2F4-EDA6-4942-A05D-4141C9EC321F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E61F2F4-EDA6-4942-A05D-4141C9EC321F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E138CE1C-E769-44D8-951E-988DC07CA379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E138CE1C-E769-44D8-951E-988DC07CA379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E138CE1C-E769-44D8-951E-988DC07CA379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E138CE1C-E769-44D8-951E-988DC07CA379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC1C0A6-7C41-41A3-80E2-D27A80257ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC1C0A6-7C41-41A3-80E2-D27A80257ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC1C0A6-7C41-41A3-80E2-D27A80257ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC1C0A6-7C41-41A3-80E2-D27A80257ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4EE1E4A-CA4A-4F2E-BD53-3F575F7F7059}
+	EndGlobalSection
+EndGlobal
