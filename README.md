@@ -1,6 +1,6 @@
 # Condofy_Challenge_API
 
-Firt Run This Script in Sql Server:
+First Run this script in Sql Server:
 ```sql
 use master;
 go
